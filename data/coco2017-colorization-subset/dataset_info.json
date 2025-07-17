@@ -1,0 +1,90 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "coco2017-colorization",
+  "dataset_size": 63577849,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/nickpai/coco2017-colorization@a54c59025ae98dc9e3610089311c3cd5efef2847/data/train-00000-of-00001.parquet": {
+      "num_bytes": 27456860,
+      "checksum": null
+    },
+    "hf://datasets/nickpai/coco2017-colorization@a54c59025ae98dc9e3610089311c3cd5efef2847/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 1261141,
+      "checksum": null
+    }
+  },
+  "download_size": 28718001,
+  "features": {
+    "license": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "file_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "coco_url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "height": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "width": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "date_captured": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "flickr_url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "image_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "ids": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "captions": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 92295850,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 60887489,
+      "num_examples": 112268,
+      "dataset_name": "coco2017-colorization"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2690360,
+      "num_examples": 5000,
+      "dataset_name": "coco2017-colorization"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
